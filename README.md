@@ -21,7 +21,7 @@ Key highlights:
 ---
 
 ## 🌐 Live Demo  
-👉 Try the deployed web app here: 
+👉 Try the deployed web app here: [IMDB Movie Review Sentiment Analysis App](https://imdb-movie-review-sentiment-analysis-ankits-07.streamlit.app)
 
 
 ---
@@ -31,8 +31,7 @@ Key highlights:
 - 25,000 positive reviews  
 - 25,000 negative reviews  
 
-Dataset link:  
-👉 https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews
+Dataset link:  [IMDB Movie Review Dataset – 50K Reviews](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews)
 
 Columns:
 - `review` – raw movie review text
