@@ -49,33 +49,6 @@ def load_model_and_vocab():
     model.eval()
 
     return model, vocab
-"""
-VOCABULARY CREATION
-
-from collections import Counter
-
-word_freq = Counter()
-
-# Count word frequencies across the entire corpus
-for tokens in df["tokens"]:
-    word_freq.update(tokens)
-
-PAD_TOKEN = "<PAD>"
-UNK_TOKEN = "<UNK>"
-
-# Initialize vocabulary with special tokens
-vocab = {
-    PAD_TOKEN: 0,
-    UNK_TOKEN: 1
-}
-
-# Add words to vocabulary based on frequency threshold
-for word, freq in word_freq.items():
-    if freq >= 2:  # removes very rare/noisy words
-        vocab[word] = len(vocab)
-
-print("Vocabulary size:", len(vocab))
-"""
 
 MAX_LEN = 500
 
